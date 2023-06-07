@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    width: 400px;  
+}
+.times,
+.card-footer,
+.volume-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.volume-container i {
+    margin-right: 10px;
+}
+.options:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white ;
+}
+.selected{
+    background-color: red;
+    color: white ;
+}
